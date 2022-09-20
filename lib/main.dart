@@ -54,6 +54,14 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            ElevatedButton(
+              child: Text("Clique aqui"),
+              style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(Colors.red),
+                  textStyle:
+                      MaterialStateProperty.all(TextStyle(color: Colors.blue))),
+              onPressed: () {},
+            )
           ],
         ),
       ),
